@@ -178,7 +178,7 @@ var spawn = func(c, context) return func {thread.newthread(func {
 # The radar will make sure to keep this variable updated.
 # Whatever is targeted and ready to be fired upon, should be set here. (or set it directly on the missile using AIM.contacts[0])
 #
-# The variable contactPoint is for now only used by F-16 target pod.
+# The variable contactPoint is for now at least used by the F-16 and M2000 target pod.
 #
 var contact = nil;
 var contactPoint = nil;
